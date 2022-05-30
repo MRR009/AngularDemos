@@ -1,0 +1,39 @@
+
+<div class="container">
+    <span><h2 class="heading" >{{ title }}</h2></span>
+    
+    <div class="form form-group">
+        <form [formGroup]="studentForm" (ngSubmit) = "onSubmit()">
+            <p>
+                <label for="studentId">Student Id</label>
+                <input class="form-control input" type="text" id="bookName" name="bookName" formControlName="bookName">
+            </p>
+    
+            <p>
+                <label for="studentName">Student Name</label>
+                <input class="form-control" type="text" id="authorName" name="authorName" formControlName="authorName">
+            </p>
+    
+            <p>
+                <label for="studentEmail">Student email </label>
+                <input class="form-control" type="text" placeholder="Enter email" id="bookPrice" name="bookPrice" formControlName="bookPrice">
+            </p>
+    
+            <p>
+                <label for="course">Course</label> <br />
+                <input class="form-check-input" type="checkbox" value="fiction" id="course" name="course"  formControlName="course"> B Tech
+                <input class="form-check-input" type="checkbox" value="science" id="course" name="course"  formControlName="course"> M Tech
+                <input class="form-check-input" type="checkbox" value="novel" id="course" name="course"  formControlName="course"> B Sc
+                <input class="form-check-input" type="checkbox" value="self help" id="course" name="course"  formControlName="course"> M Sc
+            </p>
+                
+            <p>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </p>
+    
+        </form>
+    </div>
+</div>
+    
+
+

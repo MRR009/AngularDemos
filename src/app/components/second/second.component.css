@@ -1,0 +1,14 @@
+.heading{
+    font-family: "sans-serif";
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(150, 56, 1);
+}
+
+.background-color{
+    background-color: rgb(202, 142, 107);
+};
+
+.input-box{
+    width: 40%;
+}

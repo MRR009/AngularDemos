@@ -1,0 +1,10 @@
+<h1 class = "text-secondary">{{title}}</h1>
+
+<!-- <---{{}} -- interpolation -->
+
+<button class="btn btn-primary" [disabled]="clickme">Property Binding</button>
+
+<button class="btn btn-primary"
+		[disabled]="clickme"
+		(click)="changeTitle()">2 Binding</button>
+
