@@ -6,17 +6,17 @@
         <form [formGroup]="studentForm" (ngSubmit) = "onSubmit()">
             <p>
                 <label for="studentId">Student Id</label>
-                <input class="form-control input" type="text" id="bookName" name="bookName" formControlName="bookName">
+                <input class="form-control input" type="text" id="bookName" name="bookName" formControlName="studentId">
             </p>
     
             <p>
                 <label for="studentName">Student Name</label>
-                <input class="form-control" type="text" id="authorName" name="authorName" formControlName="authorName">
+                <input class="form-control" type="text" id="authorName" name="authorName" formControlName="studentName">
             </p>
     
             <p>
                 <label for="studentEmail">Student email </label>
-                <input class="form-control" type="text" placeholder="Enter email" id="bookPrice" name="bookPrice" formControlName="bookPrice">
+                <input class="form-control" type="text" placeholder="Enter email" id="bookPrice" name="bookPrice" formControlName="studentEmail">
             </p>
     
             <p>

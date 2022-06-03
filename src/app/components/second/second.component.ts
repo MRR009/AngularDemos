@@ -23,7 +23,8 @@ export class SecondComponent implements OnInit {
   studentForm = new FormGroup({
     studentId: new FormControl(),
     studentName: new FormControl(),
-    studentEmail: new FormControl()
+    studentEmail: new FormControl(),
+    course: new FormControl()
   });
 
   onSubmit(){

@@ -7,8 +7,8 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class Child1Component implements OnInit {
 
-  // @Input() parentsBookName = '';
-  // @Input() parentsBookPublisher = '';
+  @Input() parentsBookName = '';
+  @Input() parentsBookPublisher = '';
 
 /*  @Output() bookEvent = new EventEmitter<string>();
   @Output() publishEvent = new EventEmitter<string>();
@@ -24,10 +24,10 @@ export class Child1Component implements OnInit {
       this.publishEvent.emit(this.publisher);
   }  */
 
-  bookInfo: any = {
-    bookName: '',
-    publisher: ''
-};
+//   bookInfo: any = {
+//     bookName: '',
+//     publisher: ''
+// };
 
 
   constructor() { }
